@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Keep Tab | Home</title>
+    <link rel="icon" href="/images/banner.jpg" type="image/x-icon" />
+  </head>
+  <body>
+    <nav class="navbar"></nav>
+    <main>
+      <div class="mainSec">
+        <div class="titleBnnr">
+          <h1>Keep Tabs</h1>
+        </div>
+        <div class="mainNav">
+          <a class="links" href="./index.html">Home</a>
+          <a class="links" href="/misc/settings.html">Settings</a>
+          <a class="links" href="/misc/about.html">About</a>
+        </div>
+        <div class="firstSec">
+          <h2>LINKS</h2>
+          <h3>HTML & CSS Full Course - Beginner to Pro</h3>
+          <button class="fLink">
+            <a
+              href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=7s"
+              target="_blank"
+              >Learn!</a
+            >
+          </button>
+          <h3>Front Web Development Bootcamp Course</h3>
+          <button class="fLink">
+            <a
+              href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=7s"
+              target="_blank"
+              >Learn!</a
+            >
+          </button>
+          <h3>CS50 Havard</h3>
+          <button class="fLink">
+            <a href="https://cs50.harvard.edu/x/2022/weeks/1/" target="_blank"
+              >Learn!</a
+            >
+          </button>
+          <h3>Roadmap sh</h3>
+          <button class="fLink">
+            <a href="https://roadmap.sh/frontend" target="_blank">Learn!</a>
+          </button>
+          <h3>W3 Developer Job</h3>
+          <button class="fLink">
+            <a
+              href="https://www.w3schools.com/howto/howto_blog_developer_job.asp"
+              target="_blank"
+              >Learn!</a
+            >
+          </button>
+        </div>
+      </div>
+    </main>
+    <audio data-key="65" src="/a.mp3"></audio>
+
+    <script>
+      window.addEventListener("keydown", function (e) {
+        const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+        // window.addEventListener("keydown", function (e) {
+        //   const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+        console.log(audio);
+        audio.currentTime = 0;
+        if (!audio) return;
+
+        audio.play();
+      });
+    </script>
+  </body>
+</html>

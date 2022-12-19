@@ -1,0 +1,77 @@
+:root {
+  font-size: 16px;
+  font-family:'Open Sans';
+  --text-primary: #b6b6b6; /*Css variables */
+  --text-secondary: #ececec;
+  --bg-primary: #23232e;
+  --bg-secondary: #141418;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  color: aliceblue;
+  background-color: rgb(57, 55, 67);
+}
+
+/* changing the ugly default scroll by using psuedo element */
+body::-webkit-scrollbar{
+  width: 0.25rem;
+}
+body::-webkit-scrollbar-track{
+  background: rgb(47, 37, 63);
+}
+body::-webkit-scrollbar-thumb{
+  background: rgb(2, 1, 31);
+}
+
+.navbar {
+  width: 5rem;
+  height: 100vh;
+  position: fixed;
+  background-color: var(--bg-primary);
+}
+
+main {
+  margin-left: 5rem;
+  padding: 1rem;
+}
+
+.mainSec {
+  width: 100vw;
+  height: 500vh;
+  position: relative;
+  color: rgb(43, 133, 103);
+  /* background-image: url(./images/banner.jpg); */
+}
+
+.titleBnnr {
+  padding-left: 15px;
+}
+
+.titleBnnr:hover {
+  color: rgb(189, 234, 221);
+}
+
+.mainNav {
+  background: rgb(95, 91, 115);
+  font-size: 30px;
+  text-align: center;
+  height: 50px;
+  padding-top: 25px;
+  background: linear-gradient(rgb(57, 55, 67), rgb(125, 119, 152));
+  transition: all 0.15s;
+  position: sticky;
+  top: 10px;
+}
+
+.mainNav:hover {
+  background: linear-gradient(rgb(95, 70, 207), rgb(28, 19, 67));
+}
+
+.links {
+  padding-right: 30px;
+  padding-left: 30px;
+  text-decoration: none;
+  color: rgb(148, 141, 157);
+}
