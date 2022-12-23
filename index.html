@@ -12,58 +12,31 @@
     />
   </head>
   <body>
-    <!-- image slider start -->
-    <div class="slider">
-      <div class="slides">
-        <!-- radio buttons start -->
-        <input type="radio" name="radio-btn" id="radio1" checked />
-        <input type="radio" name="radio-btn" id="radio2" />
-        <input type="radio" name="radio-btn" id="radio3" />
-        <input type="radio" name="radio-btn" id="radio4" />
-        <!-- radio buttons end -->
-        <!-- slide images start -->
-        <div class="slide first">
-          <img src="./image/img1.png" alt="" />
-        </div>
-        <div class="slide">
-          <img src="./image/img2.png" alt="" />
-        </div>
-        <div class="slide">
-          <img src="./image/img3.png" alt="" />
-        </div>
-        <div class="slide">
-          <img src="./image/img4.png" alt="" />
-        </div>
-        <!-- slide images end -->
-        <!-- automatic navigation start -->
-        <div class="navigation-auto">
-          <div class="auto-btn1"></div>
-          <div class="auto-btn2"></div>
-          <div class="auto-btn3"></div>
-          <div class="auto-btn4"></div>
-        </div>
-        <!-- automatic navigation end -->
+    <header>
+      <div class="inner">
+        <ul class="menu">
+          <li class="menu-item-1">
+            <a href="/index.html">Home</a>
+          </li>
+          <li class="menu-item-2">
+            <a href="./keeptabs/keeptabs.html">Keep Tabs</a>
+          </li>
+        </ul>
       </div>
-      <!-- manual navigation start -->
-      <div class="navigation-manual">
-        <label for="radio1" class="manual-btn"></label>
-        <label for="radio2" class="manual-btn"></label>
-        <label for="radio3" class="manual-btn"></label>
-        <label for="radio4" class="manual-btn"></label>
+    </header>
+    <main>
+      <div class="bgImage">
+        <div class="overlay"></div>
+        <div class="content">
+          <h1>Meiroudi <span>Developer - Illustrator</span></h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
+            velit provident. Error, vitae vero.
+          </p>
+          <button>View Projects</button>
+          <button>View Gallery</button>
+        </div>
       </div>
-      <!-- manual navigation end -->
-    </div>
-    <!-- image slider end -->
-
-    <script>
-      var counter = 2;
-      setInterval(function () {
-        document.getElementById("radio" + counter).checked = true;
-        counter++;
-        if (counter > 4) {
-          counter = 1;
-        }
-      }, 5000);
-    </script>
+    </main>
   </body>
 </html>
