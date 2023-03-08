@@ -18,6 +18,10 @@ body {
   line-height: 1.6;
 }
 
+.goto {
+  width: 100px;
+}
+
 .header {
   height: 10px;
   width: 100vw;
