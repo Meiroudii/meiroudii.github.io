@@ -74,7 +74,7 @@ function playRound(playerSelection, computerSelection) {
 }
 
 function game() {
-    let isGameStarted = true;
+    let gameStarted = true;
     do {
         let gamePrompt = prompt("Start the game? (y/N)");
         if (gamePrompt.toLowerCase() === "y") {
@@ -84,9 +84,9 @@ function game() {
         }
         else {
             alert("Game has been shutdown.");
-            isGameStarted = false;
+            gameStarted = false;
         }
-    } while(isGameStarted);
+    } while(gameStarted);
 }
 
 game();
