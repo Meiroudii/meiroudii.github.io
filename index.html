@@ -4,75 +4,74 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="My gallery">
+    <meta name="author" content="meiroudii">
+    <meta property="og:title" content="Meiroudii">
+    <meta property="og:description" content="Official Meiroudii website">
+    <meta property="og:image" content="./src/assets/image/header.jpg">
+    <meta property="og:url" content="https://meiroudii.github.io">
     <title>Meiroudii Official Website</title>
-    <script
-      src="https://kit.fontawesome.com/fa42faa55f.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="./CSS/style.css" />
+     <link rel="icon" type="svg/x-icon" href="./src/assets/image/favicon.svg">
+    <link rel="stylesheet" href="./src/css/styles.css" />
   </head>
   <body>
-    <div class="goto">
-      <a href="/keeptabs/keeptabs.html">Open KeepTabs</a>
-      <a href="/aux/mr-snek-js/index.html">Mr snek</a>
-    </div>
-    <div class="slider">
-      <div class="header">
+
+    <header id="hero">
+      <nav>
         <h1>Meiroudii</h1>
-      </div>
-      <div class="slide current">
-        <div class="content">
-          <h1>Passion</h1>
-          <p>
-            Making art will show nor teach how that how things, or your feelings to expressed!  
-          </p>
-        </div>
-      </div>
-      <div class="slide">
-        <div class="content">
-          <h1></h1>
-          <p>
-            Happy colors will elevate your feelings 
-          </p>
-        </div>
-      </div>
-      <div class="slide">
-        <div class="content">
-          <h1></h1>
-          <p>
-            Puzzles, strategy 
-          </p>
-        </div>
-      </div>
-      <div class="slide">
-        <div class="content">
-          <h1></h1>
-          <p>
-            Searching, and Improving
-          </p>
-        </div>
-      </div>
-      <div class="slide">
-        <div class="content">
-          <h1>Dusk Forest</h1>
-          <p>
-            Finding the best path for the right goal
-          </p>
-        </div>
-      </div>
-      <div class="slide">
-        <div class="content">
-          <h1>Yasumi</h1>
-          <p>
-            Finding some breaks, giving yourself a piece, finding the comfortable feelings
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="buttons">
-      <button id="prev"><i class="fas fa-arrow-left"></i></button>
-      <button id="next"><i class="fas fa-arrow-right"></i></button>
-    </div>
-    <script src="main.js"></script>
+        <ul>
+          <li><a href="#">
+            Information
+          </a></li>
+          <li><a href="#about">
+            About
+          </a></li>
+          <li><a href="#contact">
+            Contact
+          </a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <aside>
+        <nav>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </nav>
+      </aside>
+
+      <section> 
+        <img src="./src/assets/image/header.jpg" width="500px">
+      </section>
+      <section id="about">
+        <h3>About Meiroudii</h3>
+        <p>I draw cute things! </p>
+      </section>
+      <section id="contact">
+        <h3>SNS</h3>
+        <a href="https://www.twitter.com">Twitter</a>
+        <a href="https://www.pixiv.net">Pixiv</a>
+      </section>
+    </main>
+    <footer>
+      <hr>
+      <a href="https://www.twitter.com">
+        <img src="./src/assets/image/twittericon.svg" width="20px"/>
+      </a>
+      <a href="https://instagram.com">
+        <img src="./src/assets/image/instaicon.svg" width="20px"/>
+      </a>
+      <a href="https://pixiv.net">
+        <img src="./src/assets/image/pixivicon.svg" width="20px"/>
+      </a>
+      <a href="#hero">GOTO TOP</a>
+      <p>Meiroudii | 2024 &copy; All rights reserved.</p>
+    </footer>
+    <script src="./src/script/index.js"></script>
   </body>
 </html>
