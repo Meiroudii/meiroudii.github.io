@@ -1,0 +1,32 @@
+@font-face {
+	font-family: 'Norse-bold';
+	src: url("./Norsebold.otf") format("opentype");
+}
+
+:root {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+section {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+img {
+	width: 30%;
+	height: 50%;
+}
+
+.sign-up-page {
+	width: 30%;
+	height: 50%;
+}
+
+.odin-text {
+	font-family: 'Norse-bold';
+}
