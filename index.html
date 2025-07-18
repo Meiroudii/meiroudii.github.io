@@ -15,8 +15,7 @@
     <link rel="stylesheet" href="./src/css/styles.css" />
   </head>
   <body>
-
-    <header id="hero">
+    <header>
       <nav>
         <h1>Meiroudii</h1>
         <ul>
@@ -34,32 +33,54 @@
     </header>
 
     <main>
-      <aside>
-        <nav>
-          <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
-        </nav>
-      </aside>
+      <section>
+        <aside>
+          <nav>
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </nav>
+        </aside>
+      </section>
+      <section class="carousel-container">
+    <div class="carousel-buttons">
+        <button id="prevBtn">Prev</button>
+        <button id="nextBtn">Next</button>
+    </div>
+        <div class="carousel-track" id="carouselTrack">
+          <img src="./src/assets/image/img1.png" alt="Image 1">
+          <img src="./src/assets/image/img2.png" alt="Image 2">
+          <img src="./src/assets/image/img3.png" alt="Image 3">
+          <img src="./src/assets/image/img4.png" alt="Image 3">
+          <img src="./src/assets/image/img5.png" alt="Image 3">
+          <img src="./src/assets/image/img6.png" alt="Image 3">
+          <img src="./src/assets/image/img7.png" alt="Image 3">
+          <img src="./src/assets/image/header.jpg" alt="Image 3">
+        </div>
+    </section>
 
-      <section> 
-        <img src="./src/assets/image/header.jpg" width="500px">
-      </section>
+
       <section id="about">
-        <h3>About Meiroudii</h3>
-        <p>I draw cute things! </p>
+        <div>
+          <h3>About Meiroudii</h3>
+          <hr>
+          <br>
+          <img id="profile" src="./src/assets/image/img7.png" alt="profile">
+        </div>
+        <div>
+          <p>I draw cute things! </p>
+        </div>
       </section>
+
       <section id="contact">
         <h3>SNS</h3>
         <a href="https://www.twitter.com">Twitter</a>
         <a href="https://www.pixiv.net">Pixiv</a>
       </section>
-    </main>
     <footer>
-      <hr>
       <a href="https://www.twitter.com">
         <img src="./src/assets/image/twittericon.svg" width="20px"/>
       </a>
@@ -72,6 +93,7 @@
       <a href="#hero">GOTO TOP</a>
       <p>Meiroudii | 2024 &copy; All rights reserved.</p>
     </footer>
-    <script src="./src/script/index.js"></script>
+    </main>
+    <script src="./src/js/main.js"></script>
   </body>
-</html>
+</html
