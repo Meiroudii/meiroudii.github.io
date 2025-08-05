@@ -1,0 +1,48 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --main-background: hsl(231, 20%, 21%);
+  --main-font-color: hsl(299, 10%, 90%);
+}
+
+body {
+  background: var(--main-background);
+  color: var(--main-font-color);
+}
+
+#about {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+#my-work {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.about-me-container {
+
+}
+
+.sns-icons {
+  display: flex;
+  margin: 1.5rem;
+  background: whitesmoke;
+  justify-content: space-evenly;
+}
+
+.my-work-container {
+  display: grid;
+  grid-template-columns: 600px 600px 600px;
+  grid-template-rows: 600px 600px;
+}
