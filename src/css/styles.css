@@ -43,6 +43,10 @@ body {
 
 .my-work-container {
   display: grid;
-  grid-template-columns: 600px 600px 600px;
-  grid-template-rows: 600px 600px;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 300px 300px;
+}
+
+.my-work-container > div {
+  border: 2px solid hsl(1,29%,90%);
 }
