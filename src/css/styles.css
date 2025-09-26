@@ -4,8 +4,9 @@
   box-sizing: border-box;
 }
 :root {
-  --main-background: hsl(231, 20%, 21%);
-  --main-font-color: hsl(299, 10%, 90%);
+  --main-background: hsl(201, 10%, 15%);
+  --sub-background: hsl(203, 12%, 20%);
+  --main-font-color: hsl(202, 20%, 95%);
 }
 
 body {
@@ -17,36 +18,33 @@ body {
   display: flex;
   height: 100vh;
   width: 100%;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   font-size: 2rem;
 }
 
-#my-work {
-  display: flex;
-  height: 100vh;
-  width: 100%;
-  overflow: hidden;
-}
 
 .about-me-container {
-
+  display: flex;
+  flex-direction: row;
+  margin: 2rem;
 }
 
 .sns-icons {
   display: flex;
-  margin: 1.5rem;
-  background: whitesmoke;
+  background: var(--sub-background);
+  color: whitesmoke;
   justify-content: space-evenly;
 }
 
-.my-work-container {
-  display: grid;
-  grid-template-columns: 300px 300px 300px;
-  grid-template-rows: 300px 300px;
+.sns-icons > a {
+  margin: 1.5rem;
+  padding: 1.5rem;
 }
 
-.my-work-container > div {
-  border: 2px solid hsl(1,29%,90%);
+.main-profile {
+  width: 300px;
+  border-radius: 50%;
+  margin: 2rem;
 }
